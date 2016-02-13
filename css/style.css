@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  background: #eeeeee;
+}
+h2 {
+  text-align: center;
+}
+hr {
+  width: 412px;
+}
+img {
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+ul {
+  padding-top: 10px;
+  margin-left: 25px;
+  line-height: 26px;
+}
+.base_box {
+  margin: 3px auto;
+  padding-top: 32px;
+  width: 515px;
+  height: 720px;
+  background: white;
+  line-height: 130%;
+}
+.content {
+  padding-left: 60px;
+  font-size: 14pt;
+}
+.personal_data_box {
+  margin-top: 21px;
+  line-height: 27px;
+}
+.feedback_box {
+  margin-top: 21px;
+  line-height: 25px;
+}
