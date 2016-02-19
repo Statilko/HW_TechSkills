@@ -1,40 +1,70 @@
-body {
-  margin: 0px;
-  background: #eeeeee;
+*
+{
+  margin: 0;
+  padding: 0;
 }
-h2 {
-  text-align: center;
+body
+{
+  background-color: #000;
+  background-image: url("../img/background.jpg");
 }
-hr {
-  width: 412px;
-}
-img {
-  height: 150px;
-  display: block;
+.base_box
+{
   margin: 0 auto;
+  width: 1000px;
+  background-color: white;
+  position: relative;
 }
-ul {
-  padding-top: 10px;
-  margin-left: 25px;
-  line-height: 26px;
+.logo
+{
+  margin-top: 10px;
+  margin-left: 20px;
 }
-.base_box {
-  margin: 3px auto;
-  padding-top: 32px;
-  width: 515px;
-  height: 720px;
-  background: white;
-  line-height: 130%;
+.contacts
+{
+  position: absolute;
+  top: 10px;
+  right: 20px;
 }
-.content {
-  padding-left: 60px;
-  font-size: 14pt;
+.clearfix:after
+{
+  content: '';
+  clear: both;
+  display: block;
 }
-.personal_data_box {
-  margin-top: 21px;
-  line-height: 27px;
+.topmenu
+{
+  list-style: none;
 }
-.feedback_box {
-  margin-top: 21px;
-  line-height: 25px;
+.topmenu li
+{
+  display: block;
+  float: left;
+  padding: 10 30;
+  font-family: sans-serif;
+  color: white;
+  background-color: # 333333;
+  text-decoration: none;
+}
+.topmenu li a
+{
+  color: white;
+  text-decoration: none;
+}
+.leftbox
+{
+  clear: both;
+  float: left;
+  width: 21%;
+  background-color: # ffffff;
+}
+.rightbox
+{
+  float: right;
+  width: 21%;
+  background-color: # ffffff;
+}
+.footline
+{
+  clear: both;
 }
